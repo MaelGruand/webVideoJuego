@@ -1,0 +1,40 @@
+h1.title{
+    text-align: center;
+    text-decoration: underline;
+    color:  red;
+}
+p{
+    color:antiquewhite;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.225) !important;
+    padding: 20px;
+}
+button.sis{
+    size: 15px;
+    font-size: large;
+    background-color: rgba(0, 255, 255, 0.225)!important;
+    color: black;
+}
+button.sis:hover{
+    transform: scale(0.8);
+    color: red;
+}
+form{
+    align-items: center;
+    display: flex;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+.table-container {
+    margin-top: 20px;
+}
+input.btn-primary{
+    color: rgba(0, 0, 0, 1) !important;
+}
+input.btn-primary:hover{
+    transform: scale(1.225)!important;
+    color: red !important; 
+}
